@@ -1,0 +1,108 @@
+body {
+  margin: 20px 40px 0 40px;
+  padding: 0;
+  background-color: rgb(241, 229, 217);
+  overflow: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  position: relative;
+}
+.logo {
+  width: 250px;
+  height: 100px;
+}
+ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+ul {
+  display: flex;
+}
+.circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: -150px;
+  right: -150px;
+  z-index: -1;
+}
+main {
+  display: flex;
+}
+.main_left {
+  width: 40%;
+  position: relative;
+}
+.main_right {
+  width: 60%;
+  text-align: center;
+}
+.circle2 {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  background-color: rgb(228, 192, 157);
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  z-index: -1;
+}
+.new_arrivals {
+  font-size: 40px;
+}
+.just_for {
+  font-size: 100px;
+  font-weight: bolder;
+}
+.main_right_bottom {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.main_right_bottom1 {
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 100%;
+}
+.main_right_bottom2 {
+  background-color: rgb(228, 192, 157);
+  width: 100px;
+  font-size: xx-large;
+  height: 100%;
+}
+.button {
+  padding: 15px;
+}
+.for-online,
+.order {
+  font-size: x-large;
+  letter-spacing: 10px;
+  text-align: end;
+}
+.button:active {
+  background-color: rgb(228, 192, 157);
+}
+.button:hover {
+  background-color: rgb(228, 192, 157);
+}
+.main_right_bottom {
+  margin-left: 400px;
+}
+.you {
+  font-size: x-large;
+}
+footer {
+  display: flex;
+  justify-content: end;
+  margin: 12px;
+  font-size: x-large;
+}
+.ftr {
+  margin: 0 8px;
+}
